@@ -1,6 +1,11 @@
 # CollEdge
 Android application of University's ERP solution. 
 
+Below are the screenshots from Google Playstore,
+
+![playstore-screenshot1](images/playstore-screenshot1.png)
+![playstore-screenshot1](images/playstore-screenshot2.png)
+
 Introduction from Google PlayStore Description
 
 CollEdge is made with the vision to provide all that is required by a college student on the go. Irrespective of which college you belong, which course you’re pursuing, or which year you are in, colledge gives you the best.
