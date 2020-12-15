@@ -1,12 +1,11 @@
-# CollEdge
-Android application of University's ERP solution. 
+# CollEdge - University's ERP solution (Android application)
 
 Below are the screenshots from Google Playstore,
 
 ![playstore-screenshot1](images/playstore-screenshot1.png)
 ![playstore-screenshot1](images/playstore-screenshot2.png)
 
-Introduction from Google PlayStore Description
+# Introduction from Google PlayStore Description
 
 CollEdge is made with the vision to provide all that is required by a college student on the go. Irrespective of which college you belong, which course you’re pursuing, or which year you are in, colledge gives you the best.
 
@@ -22,7 +21,7 @@ What all you need when you join or pursue your college life?
 
 CollEdge is capable of providing all that is happening around or in the campus at just a blink. Colledge gives you insights of all the events, academics, seminars and much more.
 
-Download colledge now and experience following features:
+# Download colledge now and experience following features:
 
 1. PUSH NOTIFICATION
 
@@ -49,3 +48,14 @@ Colleges under the hat of CollEdge App are:
 *Coming Soon
 Placement details, internship opportunities, nearby PG’s option and alumni connect for GGSIPU.
 Stop reading, just click and download colledge app.
+
+
+# Personal Achievements/Features
+
+- Developed from scratch and launched the application within a year reaching 4500+ downloads and 4.7/5 rating. 
+- Lead a team of 3 developers for Windows / IOS application and back-end development.
+- Worked on Google Analytics and increased the average active users by 200%.
+- Launched the application in 2 colleges of Delhi University and 3 colleges of GGSIP University as their official application and managed 2500+ active users on the app.
+- Co-founded official college society Edge-Squad in 5 colleges having 60+ students each.
+- Increased Facebook reach by 2 folds, now over 2000 in one month.
+
