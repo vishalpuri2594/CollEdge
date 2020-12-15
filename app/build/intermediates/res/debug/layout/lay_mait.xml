@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+       >
+
+        <LinearLayout
+            android:id="@+id/b_notice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/editborder"
+            android:fadingEdge="horizontal|vertical"
+            android:onClick="click"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:visibility="visible">
+
+
+
+
+                <ImageView
+
+                    android:layout_width="150dp"
+                    android:layout_height="145dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="20dp"
+                    android:src="@drawable/notice_board" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_mait_notice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NOTICE"
+                        android:textColor="#ff3f3f3f"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_mait_board"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" BOARD"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/b_calender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/editborder"
+                android:fadingEdge="horizontal|vertical"
+                android:onClick="click"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="visible">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="145dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="20dp"
+                    android:src="@drawable/calender" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_mait_cal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CAL"
+                        android:textColor="#ff3f3f3f"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_mait_ender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ENDER"
+                        android:textStyle="italic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/b_faculty"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/editborder"
+            android:onClick="click"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="145dp"
+                android:src="@drawable/faculty" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_mait_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="ABOUT"
+                    android:textColor="#ff3f3f3f"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_mait_faculty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text=" FACULTY"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b_societies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+
+            android:onClick="click"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <ImageView
+                android:id="@+id/iv_soc"
+                android:layout_width="150dp"
+                android:layout_height="145dp"
+                android:src="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_mait_soc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="SOC"
+                    android:textColor="#ff3f3f3f"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_mait_ieties"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="IETIES"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Akshay/AndroidStudioProjects/MAIT/app/src/main/res/layout/lay_mait.xml -->

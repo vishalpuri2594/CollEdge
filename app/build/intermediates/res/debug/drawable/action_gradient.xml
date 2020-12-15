@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <gradient
+        android:type="linear"
+        android:angle="90"
+        
+        android:centerColor="#000"
+        android:endColor="#000"
+        android:startColor="#9b0e0e" />
+
+</shape><!-- From: file:/C:/Users/Akshay/AndroidStudioProjects/MAIT/app/src/main/res/drawable/action_gradient.xml -->

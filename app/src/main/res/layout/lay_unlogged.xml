@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ul_ll_head_grad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Maharaja Agrasen"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#dde1e3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:text="Institute Of Technology"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#9fa1a2" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="45dp">
+
+            <Button
+
+                android:id="@+id/ul_login"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ul_ll_login_cir"
+                android:text="Login"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/White" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+
+                <Button
+                    android:id="@+id/b_ul1"
+
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/color_1"
+                    android:text="About MAIT"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/b_ul6"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/color_2"
+                    android:text="New Button"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/b_ul2"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"                    android:layout_weight="1"
+                    android:background="@drawable/color_3"
+                    android:text="New Button"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/b_ul7"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"                    android:layout_weight="1"
+                    android:background="@drawable/color_4"
+                    android:text="New Button"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/b_ul3"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"                    android:layout_weight="1"
+                    android:background="@drawable/color_5"
+                    android:text="New Button"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/b_ul8"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"                    android:layout_weight="1"
+                    android:background="@drawable/color_6"
+                    android:text="New Button"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/b_ul4"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"                    android:layout_weight="1"
+                    android:background="@drawable/color_7"
+                    android:text="New Button"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/b_ul9"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"                    android:layout_weight="1"
+                    android:background="@drawable/color_8"
+                    android:text="New Button"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/b_ul5"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"                    android:layout_weight="1"
+                    android:background="@drawable/color_9"
+                    android:text="New Button"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/b_ul10"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="end"
+                    android:layout_margin="10dp"                    android:layout_weight="1"
+                    android:background="@drawable/color_10"
+                    android:text="New Button"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!--  <FrameLayout
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:gravity="center">
+
+              <ViewFlipper
+
+                  android:id="@+id/flipper_image"
+                  android:layout_width="350dp"
+                  android:layout_height="250dp">
+
+
+                  <ImageView
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/is_image1" />
+
+                  <ImageView
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/is_image2" />
+
+                  <ImageView
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/is_image3" />
+
+              </ViewFlipper>
+
+
+          </LinearLayout>
+
+          <FrameLayout
+              android:layout_width="350dp"
+              android:layout_height="250dp"
+             >
+
+              <ViewFlipper
+                  android:id="@+id/flipper_text"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="#80000000">
+
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:paddingBottom="70dp"
+                      android:paddingTop="80dp"
+                      android:text="Discover MAIT"
+                      android:textColor="@color/White"
+                      android:textSize="40sp" />
+
+                  <TextView
+
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" />
+              </ViewFlipper>
+
+          </FrameLayout>
+      </FrameLayout>-->
+</LinearLayout>

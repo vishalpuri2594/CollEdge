@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MAIT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string name="about_mait">Maharaja Agrasen Institute of Technology is affiliated to 
+        Guru Gobind Singh Indraprastha University, Delhi. It  was established in the 
+        1999 and since then it has taken long strides in providing quality Engineering 
+        and Technical education to students. Keeping in view the values ushered in by 
+        Maharaja Agrasen and the objectives envisioned by the Maharaja Agrasen Technical 
+        Education Society, the Institute aims to provide well qualified manpower to this 
+        nation. 
+        In each in every field of Engineering and Technical education efforts are made 
+        to provide the latest in the best tools to the budding engineers on its rolls. 
+        As mentioned its objective an excellent hardware-software symbiosis is maintained 
+        in each and every laboratory of this Institute. Students are encouraged to explore 
+        the \'What if\'  situation arising in the Engineering problems using software tools. 
+        Entrepreneurial skills are also being cultivated in the students.\n
+
+		In the coming year students from this Institute shall be showing their skills in 
+		the industries to join hands in fulfilling the social responsibility of imparting 
+		Engineering education and training to the youth of this nation.</string>
+
+</resources>

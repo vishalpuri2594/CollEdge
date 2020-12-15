@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <stroke
+        android:width="0dp"
+        android:color="#666666" />
+
+    <padding
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:top="4dp" />
+
+    <gradient
+        android:centerColor="#ecb594"
+        android:endColor="#ecb594"
+        android:startColor="#ecb594" />
+
+    <corners android:radius="35dp" />
+
+</shape><!-- From: file:/C:/Users/Akshay/AndroidStudioProjects/MAIT/app/src/main/res/drawable/color_1.xml -->

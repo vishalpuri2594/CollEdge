@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <stroke
+        android:width="0dp"
+        android:color="#202121" />
+
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" />
+
+    <gradient
+
+
+        android:centerColor="#803f4041"
+        android:endColor="#803f4041"
+        android:startColor="#803f4041" />
+
+    <corners android:radius="8dp" />
+
+</shape><!-- From: file:/C:/Users/Akshay/AndroidStudioProjects/MAIT/app/src/main/res/drawable/login_back.xml -->

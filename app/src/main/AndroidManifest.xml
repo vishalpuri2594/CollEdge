@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycollege.mait"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.mycollege.mait.Main"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mycollege.mait.Home_logged"
+            android:icon="@drawable/ic_action_icon"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.HOMELOGGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mycollege.mait.Home_unlogged"
+            android:icon="@drawable/ic_action_icon"
+            android:label="@string/app_name"
+            android:theme="@style/AppBaseTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.HOMEUNLOGGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mycollege.mait.Login"
+            android:icon="@drawable/ic_action_icon"
+            android:label="Log-In"
+            android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay"
+            android:parentActivityName="com.mycollege.mait.Home_logged">
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mycollege.mait.Calender"
+            android:icon="@drawable/ic_action_icon"
+            android:label=" Calender"
+            android:parentActivityName="com.mycollege.mait.Home_logged"
+            android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay">
+            <intent-filter>
+                <action android:name="android.intent.action.CALENDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mycollege.mait.LoginState"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.mycollege.mait.Calender_PDF_WEBVIEW"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".SettingsClass"
+            android:icon="@drawable/ic_setting"
+            android:label="Settings"
+            android:parentActivityName="com.mycollege.mait.Home_logged">
+            <intent-filter>
+                <action android:name="android.intent.action.THEMESELECTOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mycollege.mait.NewsFeedDetailActivity"
+            android:icon="@drawable/ic_action_icon"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".NotificationBar"
+            android:icon="@drawable/ic_setting"
+            android:label="Settings"
+            android:parentActivityName="com.mycollege.mait.Home_logged">
+            <intent-filter>
+                <action android:name="android.intent.action.NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NoticeBoard"
+            android:icon="@drawable/ic_action_icon"
+            android:label="Notice Board"
+            android:parentActivityName="com.mycollege.mait.Home_logged"
+            android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay">
+            <intent-filter>
+                <action android:name="android.intent.action.NOTICEBOARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PDFNewActivity"
+            android:icon="@drawable/ic_action_icon"
+            android:label="PDF Viewer"
+            android:parentActivityName="com.mycollege.mait.Calender" >
+            <intent-filter>
+                <action android:name="android.intent.action.PDFACT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MAIT_AboutMait"
+            android:icon="@drawable/ic_action_icon"
+            android:label="About MAIT"
+            android:parentActivityName="com.mycollege.mait.Home_unlogged" >
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUTMAIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--  <receiver
+             android:name=".MaitWidget"
+             android:label="@string/app_name" >
+             <intent-filter>
+                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+             </intent-filter>
+
+             <meta-data
+                 android:name="android.appwidget.provider"
+                 android:resource="@xml/lay_widget" />
+         </receiver>
+
+         <activity
+             android:name="com.mycollege.mait.WidgetConfig"
+             android:label="@string/app_name" >
+             <intent-filter>
+                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+             </intent-filter>
+         </activity> -->
+    </application>
+
+</manifest>

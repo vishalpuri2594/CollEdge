@@ -1,0 +1,307 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="Choose Theme Color"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/colors"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/editborder2"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF666666"
+                android:onClick="onColorClicked"
+                android:tag="#FF666666" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+
+                android:background="#FF7f7d7d"
+                android:onClick="onColorClicked"
+                android:tag="#FF7f7d7d" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+
+                android:background="#FFa2a1a1"
+                android:onClick="onColorClicked"
+                android:tag="#FFa2a1a1" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF586420"
+                android:onClick="onColorClicked"
+                android:tag="#FF586420" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF92ac18"
+                android:onClick="onColorClicked"
+                android:tag="#FF92ac18" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFa6bd3b"
+                android:onClick="onColorClicked"
+                android:tag="#FFa6bd3b" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFaa413d"
+                android:onClick="onColorClicked"
+                android:tag="#FFaa413d" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFC74B46"
+                android:onClick="onColorClicked"
+                android:tag="#FFC74B46" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFdd443e"
+                android:onClick="onColorClicked"
+                android:tag="#FFdd443e" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFbc6623"
+                android:onClick="onColorClicked"
+                android:tag="#FFbc6623" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFd97629"
+                android:onClick="onColorClicked"
+                android:tag="#FFd97629" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFF4842D"
+                android:onClick="onColorClicked"
+                android:tag="#FFF4842D" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF3585bb"
+                android:onClick="onColorClicked"
+                android:tag="#FF3585bb" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF3a93cf"
+                android:onClick="onColorClicked"
+                android:tag="#FF3a93cf" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF3F9FE0"
+                android:onClick="onColorClicked"
+                android:tag="#FF3F9FE0" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:id="@+id/colors"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/editborder2"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp">
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF4654a3"
+                android:onClick="onColorClicked"
+                android:tag="#FF4654a3" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF5161BC"
+                android:onClick="onColorClicked"
+                android:tag="#FF5161BC" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF6a7ad4"
+                android:onClick="onColorClicked"
+                android:tag="#FF6a7ad4" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF8b4aa6"
+                android:onClick="onColorClicked"
+                android:tag="#FF8b4aa6" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFa558c5"
+                android:onClick="onColorClicked"
+                android:tag="#FFa558c5" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFbd6ae0"
+                android:onClick="onColorClicked"
+                android:tag="#FFbd6ae0" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF9c682b"
+                android:onClick="onColorClicked"
+                android:tag="#FF9c682b" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFbe7f35"
+                android:onClick="onColorClicked"
+                android:tag="#FFbe7f35" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFe39943"
+                android:onClick="onColorClicked"
+                android:tag="#FFe39943" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF7a8b2b"
+                android:onClick="onColorClicked"
+                android:tag="#FF7a8b2b" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF97ac35"
+                android:onClick="onColorClicked"
+                android:tag="#FF97ac35" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FFb5ce40"
+                android:onClick="onColorClicked"
+                android:tag="#FFb5ce40" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF2d845c"
+                android:onClick="onColorClicked"
+                android:tag="#FF2d845c" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF37a271"
+                android:onClick="onColorClicked"
+                android:tag="#FF37a271" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_margin="4dip"
+                android:background="#FF44c389"
+                android:onClick="onColorClicked"
+                android:tag="#FF44c389" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" android:configure="com.mycollege.mait.WidgetConfig">
+    
+
+</appwidget-provider>
+<!-- From: file:/C:/Users/Akshay/AndroidStudioProjects/MAIT/app/src/main/res/xml/lay_widget.xml -->

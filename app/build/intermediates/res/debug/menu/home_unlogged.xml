@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mycollege.mait.Home" >
+
+    <item
+        android:id="@+id/action_login"
+        android:title="Login"
+        app:showAsAction="always|withText"
+       />
+
+
+</menu><!-- From: file:/C:/Users/Akshay/AndroidStudioProjects/MAIT/app/src/main/res/menu/home_unlogged.xml -->

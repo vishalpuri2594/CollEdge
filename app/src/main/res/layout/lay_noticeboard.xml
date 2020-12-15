@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mycollege.mait.ActionBarCustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:fadingEdge="horizontal|vertical"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1">
+
+                <ImageView
+
+                    android:id="@+id/image_header"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="20dp"
+                    android:src="@drawable/notice_board" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_mait_notice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NOTICE"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ff3f3f3f"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_mait_board2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" BOARD"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ll_mait_strip"
+            android:layout_height="3dp"
+            android:orientation="vertical"
+           >
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back in November 2012, I wrote a blog post entitled “ActionBar on the Move”. This article was mainly dealing with a technique to nicely and uniquely animate your ActionBar. Although I mentioned some of the effect’s possible applications, I never had time to effectively add an ActionBar animation to one of my own apps nor saw an application on the Play Store taking advantage of it.
+
+While being at Google I/O last week, I finally found an application using the ActionBar animation technique. Let’s be honest, it literally blew my mind the first time I saw it. I felt in love with the nice, subtle and yet extremely useful animated effect probably more than the entire app itself! I am pretty sure you know the application I am talking about as it has been presented during the Google I/O keynote. You have also probably recently received an update of it: Play Music!
+
+The latest update of Play Music (v5.0) has been completely redesign and features a brand new artist/album detail screen. If you open such a detail screen, you’ll notice the ActionBar is initially invisible and overlaps a large image describing the artist/album. Once you start scrolling down (if possible), the ActionBar fades in gradually. The ActionBar turns completely opaque when the large image has been scrolled out of the screen.
+
+Here are two main advantages of this ActionBar animation:Polish the UI: animations synchronized on an element you’re interacting with are generally appreciated by users because it makes them feel the UI is natural and reacts to their actions. The fading animation is a direct consequence of the per-pixel scrolling state and not a launched-once animation.
+
+Take advantage of the screen real estate: while still preserving the UX of the platform, this pattern let the user primarily focus on the content rather than the controls. Used in addition to a nicely designed screen, it can be a game changer for your app’s interface.
+
+In this article, I will deep dive into the details of implementing the technique described in “ActionBar on the Move” to create an effect similar to the one used in the Play Music app." />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</com.mycollege.mait.ActionBarCustomScrollView>
